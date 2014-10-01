@@ -16,12 +16,13 @@ os.system("echo \"**************************************************************
 os.system("env x='() { :;}; echo Machine is vulnerable to Shellshock' bash -c \"echo Tested by Silent Ethical Hacker\"")
 app = QApplication(sys.argv)
 QPixmap.grabWindow(QApplication.desktop().winId()).save('Shellshock_POC.png','png')
-/*
------------------------------------------------
-Shellshock Testing Script
-Name:     shocking Shell
-Author:   Shekhar Suman & Akriti Srivastava
-URL:      http://silentethicalhacker.blogspot.com/
-Date:     October 2014
 
------------------------------------------------ */
+
+os.system("echo \"***************************************************************** \" ")
+os.system("echo \"Shellshock Testing Script \" ")
+os.system("echo \"Name:     shocking Shell \" ")
+os.system("echo \"Author:   Shekhar Suman & Akriti Srivastava \" ")
+os.system("echo \"URL:      http://silentethicalhacker.blogspot.com/ \" ")
+os.system("echo \"Date:     October 2014\" ")
+
+os.system("echo \"***************************************************************** \" ")
