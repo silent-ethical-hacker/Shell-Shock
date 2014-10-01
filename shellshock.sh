@@ -12,12 +12,10 @@ echo "============================================================" >> $file
 echo "	Result of the Test    " >> $file
 echo "============================================================" >> $file
 env x='() { :;}; echo Machine is vulnerable to Shellshock' bash -c  "echo Tested by Silent Ethical Hacker" >> $file
-/*
------------------------------------------------
-Shellshock Testing Script
-Name:     shocking Shell
-Author:   Shekhar Suman & Akriti Srivastava
-URL:      http://silentethicalhacker.blogspot.com/
-Date:     October 2014
-
------------------------------------------------ */
+echo "" >> $file
+echo "" >> $file
+echo "" >> $file
+echo "============================================================" >> $file
+echo "	Shellshock Testing Script	  				">> $file
+echo "	Author:   Shekhar Suman & Akriti Srivastava	  				">> $file
+echo "============================================================" >> $file
